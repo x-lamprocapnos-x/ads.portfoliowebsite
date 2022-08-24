@@ -229,6 +229,15 @@ button:hover,button:focus {
 	.grid {
 		grid-template-columns: 1fr;
 	}
+
+	.page-header {
+		flex-flow: column;
+	}
+
+	.page-main {
+		flex-flow: column;
+	}
+ 
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
