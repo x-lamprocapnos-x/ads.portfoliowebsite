@@ -284,23 +284,30 @@ button:focus {
 }
 
 .contact-info__item {
+	display: inline-block;
 	-ms-flex-preferred-size: 50%;
 	    flex-basis: 50%;
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-flow: column;
-	        flex-flow: column;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	-webkit-box-pack: space-evenly;
+	    -ms-flex-pack: space-evenly;
+	        justify-content: space-evenly;
 	margin: 10px;
 	padding: 10px;
 }
 
 .contact-info__form {
+	display: inline-block;
 	-ms-flex-preferred-size: 50%;
 	    flex-basis: 50%;
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-flow: column;
-	        flex-flow: column;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	-ms-flex-pack:distribute;
+	    justify-content:space-around;
 	margin: 10px;
 	padding: 10px;
 }
@@ -383,6 +390,6 @@ button:focus {
 	text-decoration: none;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-    min-width:250 px;
+	min-width: 250px;
 	max-width: 500px;
 }

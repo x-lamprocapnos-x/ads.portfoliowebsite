@@ -212,15 +212,19 @@ button:hover,button:focus {
 }
 
 .contact-info__item {
+	display: inline-block;
 	flex-basis: 50%;
-	flex-flow: column;
+	flex-flow: row;
+	justify-content: space-evenly;
 	margin: var(--margin-10);
 	padding: var(--padding-10);
 }
 
 .contact-info__form {
+	display: inline-block;
 	flex-basis: 50%;
-	flex-flow: column;
+	flex-flow: row;
+	justify-content:space-around;
 	margin: var(--margin-10);
 	padding: var(--padding-10);
 }
