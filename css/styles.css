@@ -277,8 +277,10 @@ button:hover,button:focus {
 }
 
 .skyline {
-	display: block;
-	position: relative;
-	left: 33%;
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	justify-content: space-around;
+	min-width: 250px;
 	max-width: 500px;
 }

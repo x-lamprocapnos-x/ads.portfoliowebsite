@@ -376,8 +376,13 @@ button:focus {
 }
 
 .skyline {
-	display: block;
-	position: relative;
-	left: 33%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+    min-width:250 px;
 	max-width: 500px;
 }
