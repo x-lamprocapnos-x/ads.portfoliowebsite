@@ -1,9 +1,9 @@
 :root {
 	
-	--primary-color:#f8a685 ;
-	--secondary-color: #9b0000;
+	--primary-color:#fac091 ;
+	--secondary-color: #823a07;
 	--active-color: #319153;
-	--text-color: rgb(65, 63, 63);
+	--text-color: rgb(49, 48, 48);
 	--text-700: 700;
 	--text-400: 400;
 	--font-20: 20px;
@@ -198,7 +198,7 @@ button:hover,button:focus {
 }
 
 .grid {
-	background-color:#f6ab8e;
+	background-color:darken(var(--primary-color), 10%);
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 30px;
@@ -287,4 +287,12 @@ button:hover,button:focus {
 	justify-content: space-around;
 	min-width: 250px;
 	max-width: 500px;
+}
+
+.project_img {
+	float: left;
+	max-height: 200px;
+	margin: 10px 10px 10px 0px;
+	border-radius: 5px;
+	box-shadow: 1px var(--border-color)
 }

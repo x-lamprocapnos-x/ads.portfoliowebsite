@@ -11,9 +11,9 @@
 }
 
 body {
-	background-color: #f8a685;
+	background-color: #fac091;
 	font-family: "arima", georgia;
-	color: rgb(65, 63, 63);
+	color: rgb(49, 48, 48);
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.5;
@@ -24,7 +24,7 @@ body {
 
 header {
 	font-family: "cinzel decorative", georgia;
-	color: rgb(65, 63, 63);
+	color: rgb(49, 48, 48);
 	font-weight: 700;
 	font-size: 18px;
 	padding: 5px;
@@ -38,7 +38,7 @@ p {
 
 
 a {
-	color: #9b0000
+	color: #823a07
 }
 
 a:hover,
@@ -49,7 +49,7 @@ a:focus {
 
 a:visited {
 	/* visited link */
-	color: #9b0000;
+	color: #823a07;
 }
 
 a:active {
@@ -65,7 +65,7 @@ a:active {
 	/* takes the font from the outer container */
 	font-family: inherit;
 	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
-	background-color: #9b0000;
+	background-color: #823a07;
 	color: #fff;
 	text-decoration: none;
 	/*adds spacing to the button (this will be discussed more in-depth later) */
@@ -91,7 +91,7 @@ button {
 	/* takes the font from the outer container */
 	font-family: inherit;
 	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
-	background-color: #9b0000;
+	background-color: #823a07;
 	color: #fff;
 	text-decoration: none;
 	/*adds spacing to the button (this will be discussed more in-depth later) */
@@ -213,7 +213,7 @@ button:focus {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	border: #9b0000;
+	border: #823a07;
 }
 
 .page-header__item {
@@ -266,7 +266,7 @@ button:focus {
 }
 
 .grid {
-	background-color:#f6ab8e;
+	background-color:darken(#fac091, 10%);
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 1fr 30px 1fr 30px 1fr;
@@ -392,4 +392,13 @@ button:focus {
 	    justify-content: space-around;
 	min-width: 250px;
 	max-width: 500px;
+}
+
+.project_img {
+	float: left;
+	max-height: 200px;
+	margin: 10px 10px 10px 0px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px #000;
+	        box-shadow: 1px #000
 }
