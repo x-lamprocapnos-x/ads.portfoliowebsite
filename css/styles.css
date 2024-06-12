@@ -1,8 +1,8 @@
 :root {
 	
-	--primary-color:#fac091 ;
-	--secondary-color: #823a07;
-	--active-color: #319153;
+	--primary-color:#d2fad0 ;
+	--secondary-color: #395934;
+	--active-color: #3fbba2;
 	--text-color: rgb(49, 48, 48);
 	--text-700: 700;
 	--text-400: 400;
@@ -72,22 +72,17 @@ a:active {
 
 .button,
 button {
-	/* overwrites browser defaults and resets the border */
-	border: 1px;
+	
+	border: 1px; /* overwrites browser defaults and resets the border */
 	display: inline-block;
-	/* takes the font from the outer container */
-	font-family: inherit;
-	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
-	background-color: var(--secondary-color);
+	font-family: inherit; /* takes the font from the outer container */
+	background-color: var(--secondary-color); /* styles the background color, font color, and text decoration (underline, etc.) of the button */
 	color: var(--button-text);
 	text-decoration: none;
-	/*adds spacing to the button (this will be discussed more in-depth later) */
-	padding: var(--padding-10);
+	padding: var(--padding-10); /*adds spacing to the button*/
 	border-radius: 3px;
-	/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-	border-bottom: 2px var(--border-color);
-	/* adds an opacity transition */
-	transition-duration: 2s;
+	border-bottom: 2px var(--border-color); /* gives the button a bottom border with a width of 2px, a type of solid, and a color */
+	transition-duration: 2s; /* adds an opacity transition */
 	transition-property: opacity;
 
 }
@@ -137,7 +132,7 @@ button:hover,button:focus {
 	float: left;
 	min-width: 250px;
 	max-width: 500px;
-	margin-right: 50px;
+	margin-right: 60px;
 	border-radius: 50%;
 }
 
@@ -153,8 +148,6 @@ button:hover,button:focus {
 	padding: var(--padding-5);
 	justify-content: space-around;
 }
-
-
 
 .page-header {
 	display: flex;
@@ -198,12 +191,19 @@ button:hover,button:focus {
 }
 
 .grid {
-	background-color:darken(var(--primary-color), 10%);
+	background-color: var(--primary-color);
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 30px;
 	margin: 30px;
 	padding: var(--padding-10);
+}
+
+.grid_item {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
@@ -229,7 +229,7 @@ button:hover,button:focus {
 	padding: var(--padding-10);
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
 	.grid {
 		grid-template-columns: 1fr;
 	}
@@ -290,8 +290,9 @@ button:hover,button:focus {
 }
 
 .project_img {
-	float: left;
+	display: block;
 	max-height: 200px;
+	max-width: 400px;
 	margin: 10px 10px 10px 0px;
 	border-radius: 5px;
 	box-shadow: 1px var(--border-color)

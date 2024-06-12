@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: #fac091;
+	background-color: #d2fad0;
 	font-family: "arima", georgia;
 	color: rgb(49, 48, 48);
 	font-weight: 700;
@@ -38,7 +38,7 @@ p {
 
 
 a {
-	color: #823a07
+	color: #395934
 }
 
 a:hover,
@@ -49,34 +49,29 @@ a:focus {
 
 a:visited {
 	/* visited link */
-	color: #823a07;
+	color: #395934;
 }
 
 a:active {
 	/* selected link */
-	color: #319153;
+	color: #3fbba2;
 }
 
 
 .button {
-	/* overwrites browser defaults and resets the border */
-	border: 1px;
+	
+	border: 1px; /* overwrites browser defaults and resets the border */
 	display: inline-block;
-	/* takes the font from the outer container */
-	font-family: inherit;
-	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
-	background-color: #823a07;
+	font-family: inherit; /* takes the font from the outer container */
+	background-color: #395934; /* styles the background color, font color, and text decoration (underline, etc.) of the button */
 	color: #fff;
 	text-decoration: none;
-	/*adds spacing to the button (this will be discussed more in-depth later) */
-	padding: 10px;
+	padding: 10px; /*adds spacing to the button*/
 	border-radius: 3px;
-	/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-	border-bottom: 2px #000;
-	/* adds an opacity transition */
+	border-bottom: 2px #000; /* gives the button a bottom border with a width of 2px, a type of solid, and a color */
 	-webkit-transition-duration: 2s;
 	     -o-transition-duration: 2s;
-	        transition-duration: 2s;
+	        transition-duration: 2s; /* adds an opacity transition */
 	-webkit-transition-property: opacity;
 	-o-transition-property: opacity;
 	transition-property: opacity;
@@ -85,24 +80,19 @@ a:active {
 
 
 button {
-	/* overwrites browser defaults and resets the border */
-	border: 1px;
+	
+	border: 1px; /* overwrites browser defaults and resets the border */
 	display: inline-block;
-	/* takes the font from the outer container */
-	font-family: inherit;
-	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
-	background-color: #823a07;
+	font-family: inherit; /* takes the font from the outer container */
+	background-color: #395934; /* styles the background color, font color, and text decoration (underline, etc.) of the button */
 	color: #fff;
 	text-decoration: none;
-	/*adds spacing to the button (this will be discussed more in-depth later) */
-	padding: 10px;
+	padding: 10px; /*adds spacing to the button*/
 	border-radius: 3px;
-	/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-	border-bottom: 2px #000;
-	/* adds an opacity transition */
+	border-bottom: 2px #000; /* gives the button a bottom border with a width of 2px, a type of solid, and a color */
 	-webkit-transition-duration: 2s;
 	     -o-transition-duration: 2s;
-	        transition-duration: 2s;
+	        transition-duration: 2s; /* adds an opacity transition */
 	-webkit-transition-property: opacity;
 	-o-transition-property: opacity;
 	transition-property: opacity;
@@ -180,7 +170,7 @@ button:focus {
 	float: left;
 	min-width: 250px;
 	max-width: 500px;
-	margin-right: 50px;
+	margin-right: 60px;
 	border-radius: 50%;
 }
 
@@ -198,8 +188,6 @@ button:focus {
 	    justify-content: space-around;
 }
 
-
-
 .page-header {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -213,7 +201,7 @@ button:focus {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	border: #823a07;
+	border: #395934;
 }
 
 .page-header__item {
@@ -266,7 +254,7 @@ button:focus {
 }
 
 .grid {
-	background-color:darken(#fac091, 10%);
+	background-color: #d2fad0;
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 1fr 30px 1fr 30px 1fr;
@@ -274,6 +262,14 @@ button:focus {
 	grid-gap: 30px;
 	margin: 30px;
 	padding: 10px;
+}
+
+.grid_item {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
@@ -312,7 +308,7 @@ button:focus {
 	padding: 10px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
 	.grid {
 		-ms-grid-columns: 1fr;
 		grid-template-columns: 1fr;
@@ -395,8 +391,9 @@ button:focus {
 }
 
 .project_img {
-	float: left;
+	display: block;
 	max-height: 200px;
+	max-width: 400px;
 	margin: 10px 10px 10px 0px;
 	border-radius: 5px;
 	-webkit-box-shadow: 1px #000;
