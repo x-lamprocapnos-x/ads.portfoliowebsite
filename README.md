@@ -1,5 +1,5 @@
 # **Ashley's Portfolio Page HTML**
-### *** Welcome to my personal portfolio! This project showcases my journey and work as a budding web developer. Explore the projects I've been working on, learn more about me, and feel free to connect through the provided links. ***
+### Welcome to my personal portfolio! This project showcases my journey and work as a budding web developer. Explore the projects I've been working on, learn more about me, and feel free to connect through the provided links.
 
 ## **Table of Content**
 
