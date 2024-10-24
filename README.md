@@ -41,7 +41,7 @@ Clone the repository:
 `cd portfolio`
 Open the index.html file in your preferred web browser.
 
-## **Usage**
+## **Usage Guide**
 Simply navigate through the pages using the navigation bar to explore the content. Each page is designed to highlight different aspects of my work and background.
 
 ### **pages**
