@@ -29,6 +29,7 @@ This is a simple HTML/CSS-based portfolio website that serves as a platform to d
 - Normalize.css: To ensure consistent styling across browsers.
 - Google Fonts: For custom typography.
 - tota11y: For accessibility auditing.
+- zapier: for email handling.
 
 ## **Installation**
 to run this project locally, follow these steps:
