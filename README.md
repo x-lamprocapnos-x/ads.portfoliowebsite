@@ -59,8 +59,6 @@ This portfolio incorporates tota11y, a tool that helps in identifying and addres
 ### **Contact**
 - GitHub: x-lamprocapnos-x
 - LinkedIn: Ashley Shoben
-- Twitter: @lamprocapnos
-- Instagram: @lamprocapnos
 
 
 
